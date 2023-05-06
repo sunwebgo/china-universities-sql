@@ -1,25 +1,4 @@
-/*
- Navicat Premium Data Transfer
 
- Source Server         : 艺启唱-mysql(王)
- Source Server Type    : MySQL
- Source Server Version : 80026
- Source Host           : 124.221.87.28:3306
- Source Schema         : vector_server_user
-
- Target Server Type    : MySQL
- Target Server Version : 80026
- File Encoding         : 65001
-
- Date: 06/05/2023 21:15:07
-*/
-
-SET NAMES utf8mb4;
-SET FOREIGN_KEY_CHECKS = 0;
-
--- ----------------------------
--- Table structure for china_university
--- ----------------------------
 DROP TABLE IF EXISTS `china_university`;
 CREATE TABLE `china_university`  (
   `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '主键',
